@@ -1,0 +1,141 @@
+/* ===== 70s bold: pale green + flashy orange ===== */
+:root{
+  /* BACKGROUNDS */
+  --bg: #ecefd0;       /* VERT pâle assumé */
+  --card: #fdfcf7;     /* crème clair pour les cartes */
+
+  /* TEXT */
+  --text: #2b241f;
+  --muted: #5e5a55;
+
+  /* ACCENTS */
+  --brand: #ff5a1f;    /* orange flashy */
+  --accent: #2f6b3c;   /* vert profond */
+  --border: rgba(43,36,31,.18);
+
+  --shadow: 0 12px 28px rgba(43,36,31,.12);
+}
+
+
+/* Base */
+body{
+  background: var(--bg);
+  color: var(--text);
+  letter-spacing: .15px;
+}
+
+/* Links = orange */
+a{
+  color: var(--brand);
+  font-weight: 650;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Headings = orange */
+h1, h2, h3{
+  color: var(--brand);
+  letter-spacing: -0.02em;
+}
+h1{
+  font-weight: 900;
+}
+h2{
+  font-weight: 850;
+  margin-top: 1.8rem;
+  padding-bottom: .35rem;
+  border-bottom: 3px solid rgba(255,90,31,.35);
+}
+
+/* Navbar */
+.navbar{
+  background: rgba(248,251,245,.75);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.navbar-brand{
+  color: var(--brand) !important;
+  font-weight: 900;
+}
+.navbar-nav .nav-link{
+  color: var(--text);
+  font-weight: 650;
+}
+.navbar-nav .nav-link.active{
+  color: var(--brand) !important;
+}
+
+/* Cards */
+.callout{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+/* Pills (research fields) */
+.pill{
+  display: inline-flex;
+  align-items: center;
+  padding: .18rem .55rem;
+  border-radius: 999px;
+  background: transparent;                 /* plus de gros aplat */
+  border: 1.5px solid rgba(47,107,60,.45); /* contour plus net */
+  color: var(--text);
+  font-weight: 650;
+  font-size: .92rem;
+  margin: .15rem .35rem .15rem 0;
+  line-height: 1.2;
+  white-space: nowrap;                     /* évite les retours à la ligne */
+}
+
+.pill::before{
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand);  /* orange */
+  display: inline-block;
+  margin-right: .4rem;
+}
+
+.pill-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem .6rem;
+}
+
+
+/* Highlight utility */
+.hl{
+  background: linear-gradient(180deg, transparent 60%, rgba(255,90,31,.45) 0);
+  padding: 0 .18em;
+  border-radius: 6px;
+}
+
+.home-hero{
+  margin-top: 6rem;
+}
+
+.anchorjs-link{
+  display: none !important;
+}
+
+.research-text p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.paper-subtitle{
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: .2rem;
+  color: var(--brand);
+}
+
+

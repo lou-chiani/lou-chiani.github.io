@@ -1,0 +1,24 @@
+---
+title: ""
+---
+
+::: home-hero
+:::
+
+# Lou Chiani
+
+PhD candidate in Economics — Paris-Dauphine University (PSL) LEDa - DIAL
+
+[lou.chiani\@dauphine.psl.eu](mailto:lou.chiani@dauphine.psl.eu)
+
+## Research fields
+
+::: pill-grid
+[Applied microeconomics]{.pill} [Development economics]{.pill} [Political economy]{.pill} [Environmental economics]{.pill} [Climate economics]{.pill} [Agricultural economics]{.pill}
+:::
+
+## Latest
+
+-   **Working paper:** [*From Fields to Ballots: Droughts and Electoral Shifts in Brazil*](files/From_Fields_to_Ballots.pdf){target="_blank"} (Preliminary draft)
+
+-   **Talk:** [*Göttingen Workshop on Ibero-American Development*](https://www.uni-goettingen.de/en/events/659948.html){target="_blank"} (September 24, 2025)

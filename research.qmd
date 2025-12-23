@@ -1,0 +1,41 @@
+---
+title: ""
+---
+
+## Working paper
+
+### [From Fields to Ballots: Droughts and Electoral Shifts in Brazil](files/From_Fields_to_Ballots.pdf){target="_blank"}
+
+*Preliminary draft*
+
+::: research-text
+Climate change is expected to intensify the frequency and severity of droughts in developing countries, where rural livelihoods remain highly dependent on rainfed agriculture. This paper examines how growing-season droughts shape voting behavior in Brazil, a large developing democracy characterized by high climate vulnerability, deep agrarian inequalities, and polarized environmental politics.
+
+Combining high-resolution weather data with a panel of ideology- and environment-weighted vote shares for all presidential elections between 2002 and 2022, I exploit within-municipality variation in hydrological stress aligned with crop-specific growing seasons. I show that drier growing seasons systematically reduce support for green and left-leaning coalitions.
+
+Mechanism analyses indicate that these effects operate through declines in agricultural revenue per hectare, while off-season droughts have little explanatory power. Heterogeneity analyses further reveal stronger electoral penalties in smallholder-dominated areas and substantially weaker reactions in agribusiness regions, with social protection and rural organization mitigating these effects in smallholder areas.
+:::
+
+## Work in progress
+
+### Does the environment matter? Leaders’ characteristics and green policies
+
+*Ongoing*
+
+::: research-text
+This project studies whether mayors’ individual characteristics influence local environmental policy choices in Brazil. While standard political economy models predict limited scope for leaders’ preferences to affect policy outcomes, a growing empirical literature shows that leaders’ traits can matter.
+
+Using close mayoral elections between 2000 and 2020, I adopt a regression discontinuity design to compare municipalities where candidates with different characteristics narrowly won or lost. Environmental outcomes are measured using municipal budget allocations to environmental policy, institutional indicators of local environmental governance, and land-use changes derived from satellite data.
+:::
+
+## Research agenda
+
+### Local exposure to floods and electoral behavior
+
+*Early-stage project*
+
+::: research-text
+This project examines the electoral effects of floods, focusing on highly localized exposure to climate-related disasters. Unlike slow-moving and spatially diffuse shocks such as droughts, floods are sudden and geographically concentrated events, making them particularly well suited for analysis at fine spatial scales.
+
+The core objective of the project is to assess whether voters’ electoral responses vary with proximity to flood events in Brazil. To this end, I plan to exploit geocoded polling-station electoral results combined with satellite-based data from the Global Flood Database, which provides high-resolution flood footprints derived from MODIS imagery for major flood events between 2000 and 2018. I plan to complement satellite-based flood footprints with administrative disaster records from Brazil’s Atlas Digital de Desastres (S2iD), which documents the timing and impacts of floods at the municipal level. While these administrative data lack precise geographic boundaries and may be subject to reporting biases, combining them with satellite-based flood polygons offers a promising strategy to jointly exploit spatial precision and information on disaster severity.
+:::

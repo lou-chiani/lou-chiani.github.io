@@ -1,0 +1,25 @@
+---
+title: ""
+---
+
+### Économétrie I
+
+*Graduate level — Paris-Dauphine University (PSL), since 2025*
+
+::: research-text
+This course provides a first introduction to econometrics for graduate students. It aims to equip them with the core tools needed to analyze cross-sectional data and to critically interpret empirical results.
+
+The course covers basic concepts in statistics and probability, simple and multiple linear regression models, statistical inference, and an introduction to models with qualitative variables. Particular emphasis is placed on the interpretation of econometric results and on developing students’ understanding of causality versus correlation.
+:::
+
+------------------------------------------------------------------------
+
+### Macroéconomie internationale
+
+*Undergraduate level — Paris-Dauphine University (PSL), 2023–2025*
+
+::: research-text
+This course introduces undergraduate students to the analysis of open economies and the effects of economic policies under different exchange rate regimes. It focuses on the interdependencies between national economies and the functioning of the international monetary system.
+
+Topics include globalization, foreign exchange markets, the balance of payments, and the European monetary union. A substantial part of the course is devoted to the Mundell–Fleming model and its extensions, with applications to monetary and fiscal policy in open economies.
+:::
