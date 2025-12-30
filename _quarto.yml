@@ -1,8 +1,12 @@
 project:
   type: website
-
+  resources:
+    - google50201ff96fe40149.html
+    
 website:
   title: "Lou Chiani"
+  description: "Lou Chiani, PhD candidate in Economics at Paris-Dauphine University (PSL). Research in development, political economy, climate and environmental economics."
+  site-url: https://lou-chiani.github.io
   search: false
   navbar:
     left:
@@ -18,7 +22,10 @@ website:
 
 format:
   html:
+    title-block: false
+    page-title: false
     theme: flatly
     toc: false
     css: styles.css
     anchor-links: false
+
