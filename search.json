@@ -7,27 +7,6 @@
     "text": "Download my CV (PDF)"
   },
   {
-    "objectID": "index.html#research-fields",
-    "href": "index.html#research-fields",
-    "title": "PhD Candidate in Economics",
-    "section": "Research fields",
-    "text": "Research fields\n\nApplied microeconomics Development economics Political economy Environmental economics Climate economics Agricultural economics"
-  },
-  {
-    "objectID": "index.html#latest",
-    "href": "index.html#latest",
-    "title": "PhD Candidate in Economics",
-    "section": "Latest",
-    "text": "Latest\n\nWorking paper: From Fields to Ballots: Droughts and Electoral Shifts in Brazil (Preliminary draft)\nTalk: Göttingen Workshop on Ibero-American Development (September 24, 2025)"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Économétrie I\nGraduate level — Paris-Dauphine University (PSL), since 2025\n\nThis course provides a first introduction to econometrics for graduate students. It aims to equip them with the core tools needed to analyze cross-sectional data and to critically interpret empirical results.\nThe course covers basic concepts in statistics and probability, simple and multiple linear regression models, statistical inference, and an introduction to models with qualitative variables. Particular emphasis is placed on the interpretation of econometric results and on developing students’ understanding of causality versus correlation.\n\n\n\n\nMacroéconomie internationale\nUndergraduate level — Paris-Dauphine University (PSL), 2023–2025\n\nThis course introduces undergraduate students to the analysis of open economies and the effects of economic policies under different exchange rate regimes. It focuses on the interdependencies between national economies and the functioning of the international monetary system.\nTopics include globalization, foreign exchange markets, the balance of payments, and the European monetary union. A substantial part of the course is devoted to the Mundell–Fleming model and its extensions, with applications to monetary and fiscal policy in open economies."
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -56,10 +35,24 @@
     "text": "Research agenda\n\nLocal exposure to floods and electoral behavior\nEarly-stage project\n\nThis project examines the electoral effects of floods, focusing on highly localized exposure to climate-related disasters. Unlike slow-moving and spatially diffuse shocks such as droughts, floods are sudden and geographically concentrated events, making them particularly well suited for analysis at fine spatial scales.\nThe core objective of the project is to assess whether voters’ electoral responses vary with proximity to flood events in Brazil. To this end, I plan to exploit geocoded polling-station electoral results combined with satellite-based data from the Global Flood Database, which provides high-resolution flood footprints derived from MODIS imagery for major flood events between 2000 and 2018. I plan to complement satellite-based flood footprints with administrative disaster records from Brazil’s Atlas Digital de Desastres (S2iD), which documents the timing and impacts of floods at the municipal level. While these administrative data lack precise geographic boundaries and may be subject to reporting biases, combining them with satellite-based flood polygons offers a promising strategy to jointly exploit spatial precision and information on disaster severity."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Économétrie I\nGraduate level — Paris-Dauphine University (PSL), since 2025\n\nThis course provides a first introduction to econometrics for graduate students. It aims to equip them with the core tools needed to analyze cross-sectional data and to critically interpret empirical results.\nThe course covers basic concepts in statistics and probability, simple and multiple linear regression models, statistical inference, and an introduction to models with qualitative variables. Particular emphasis is placed on the interpretation of econometric results and on developing students’ understanding of causality versus correlation.\n\n\n\n\nMacroéconomie internationale\nUndergraduate level — Paris-Dauphine University (PSL), 2023–2025\n\nThis course introduces undergraduate students to the analysis of open economies and the effects of economic policies under different exchange rate regimes. It focuses on the interdependencies between national economies and the functioning of the international monetary system.\nTopics include globalization, foreign exchange markets, the balance of payments, and the European monetary union. A substantial part of the course is devoted to the Mundell–Fleming model and its extensions, with applications to monetary and fiscal policy in open economies."
+  },
+  {
+    "objectID": "index.html#research-fields",
+    "href": "index.html#research-fields",
+    "title": "PhD Candidate in Economics",
+    "section": "Research fields",
+    "text": "Research fields\n\nApplied microeconomics Development economics Political economy Environmental economics Climate economics Agricultural economics"
+  },
+  {
+    "objectID": "index.html#latest",
+    "href": "index.html#latest",
+    "title": "PhD Candidate in Economics",
+    "section": "Latest",
+    "text": "Latest\n\nWorking paper: From Fields to Ballots: Droughts and Electoral Shifts in Brazil (Preliminary draft)\nTalk: Göttingen Workshop on Ibero-American Development (September 24, 2025)"
   }
 ]
