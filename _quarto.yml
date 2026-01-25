@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - google50201ff96fe40149.html
+    - sitemap.xml
     
 website:
   title: "Lou Chiani"
