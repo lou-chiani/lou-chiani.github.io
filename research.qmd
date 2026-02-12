@@ -4,9 +4,9 @@ title: "Research"
 
 ## Work in progress
 
-### [From Fields to Ballots: Droughts and Electoral Shifts in Brazil](files/From_Fields_to_Ballots.pdf){target="_blank"}
+### From Fields to Ballots: Droughts and Electoral Shifts in Brazil
 
-*Preliminary draft*
+*Preliminary draft available upon request*
 
 ::: research-text
 Climate change is expected to intensify the frequency and severity of droughts in developing countries, where rural livelihoods remain highly dependent on rainfed agriculture. This paper examines how growing-season droughts shape voting behavior in Brazil, a large developing democracy characterized by high climate vulnerability, deep agrarian inequalities, and polarized environmental politics.
@@ -16,7 +16,7 @@ Combining high-resolution weather data with a panel of ideology- and environment
 Mechanism analyses indicate that these effects operate through declines in agricultural revenue per hectare, while off-season droughts have little explanatory power. Heterogeneity analyses further reveal stronger electoral penalties in smallholder-dominated areas and substantially weaker reactions in agribusiness regions, with social protection and rural organization mitigating these effects in smallholder areas.
 :::
 
-### Does the environment matter? Leaders’ characteristics and green policies
+### git log -1 --oneline git push -vDoes the environment matter? Leaders’ characteristics and green policies
 
 *Ongoing*
 
