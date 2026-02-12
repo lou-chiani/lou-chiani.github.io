@@ -142,4 +142,22 @@ h2{
   display: none !important;
 }
 
+/* ===== Paper entry styling ===== */
+
+.paper-title{
+  color: var(--brand);
+  font-weight: 700;
+}
+
+.paper-status{
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.talk-title{
+  color: var(--brand);
+  font-style: italic;
+  font-weight: 650;
+}
 
