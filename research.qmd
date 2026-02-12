@@ -16,7 +16,7 @@ Combining high-resolution weather data with a panel of ideology- and environment
 Mechanism analyses indicate that these effects operate through declines in agricultural revenue per hectare, while off-season droughts have little explanatory power. Heterogeneity analyses further reveal stronger electoral penalties in smallholder-dominated areas and substantially weaker reactions in agribusiness regions, with social protection and rural organization mitigating these effects in smallholder areas.
 :::
 
-### git log -1 --oneline git push -vDoes the environment matter? Leaders’ characteristics and green policies
+### Does the environment matter? Leaders’ characteristics and green policies
 
 *Ongoing*
 
