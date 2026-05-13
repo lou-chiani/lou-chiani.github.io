@@ -4,9 +4,12 @@ title: "Research"
 
 ## Work in progress
 
+::::::: {.research-card .featured-paper}
 ### From Fields to Ballots: Droughts and Electoral Shifts in Brazil
 
-**Preliminary draft available upon request**
+::: paper-meta
+[Preliminary draft available upon request]{.status-badge}
+:::
 
 Climate change is expected to intensify the frequency and severity of droughts in developing countries, where rural livelihoods remain highly dependent on rainfed agriculture. This paper examines how growing-season droughts shape voting behavior in Brazil, a large developing democracy characterized by high climate vulnerability, deep agrarian inequalities, and polarized environmental politics.
 
@@ -14,66 +17,70 @@ Combining high-resolution weather data with a panel of ideology- and environment
 
 Mechanism analyses indicate that these effects operate through declines in agricultural revenue per hectare, while off-season droughts have little explanatory power. Heterogeneity analyses further reveal stronger electoral penalties in smallholder-dominated areas and substantially weaker reactions in agribusiness regions, with social protection and rural organization mitigating these effects in smallholder areas.
 
+::::: research-details
+::: detail-box
 #### Awards
 
-Best Poster Award, ICDE Conference, 2025
+-   Best Poster Award, ICDE Conference, 2025
+-   Wicksell Prize, EPCS Conference, 2026
+:::
 
-Wicksell Prize, EPCS Conference, 2026
-
+::: detail-box
 #### Presentations
 
--   Oral presentation, AFÉPOP Annual Conference\
+-   **Oral presentation**, AFÉPOP Annual Conference\
     Bureau d’économie théorique et appliquée (BETA), Strasbourg
 
-<!-- -->
-
--   Oral presentation, Environmental Economics: A Focus on Natural Resources (EENR)\
+-   **Oral presentation**, Environmental Economics: A Focus on Natural Resources (EENR)\
     University of Orléans
 
-<!-- -->
-
--   Poster presentation, Doctorissimes 2026\
+-   **Poster presentation**, Doctorissimes 2026\
     Paris School of Economics / Université Paris 1 Panthéon-Sorbonne
 
-<!-- -->
-
--   Oral presentation, 53rd Annual Meeting of the European Public Choice Society (EPCS)\
+-   **Oral presentation**, 53rd Annual Meeting of the European Public Choice Society (EPCS)\
     Complutense University of Madrid, Spain
 
--   Oral presentation, Göttingen Workshop on Ibero-American Development\
+-   **Oral presentation**, Göttingen Workshop on Ibero-American Development\
     Ibero-America Institute for Economic Research, Georg-August-Universität Göttingen
 
--   Poster presentation, International Conference on Development Economics (ICDE)\
+-   **Poster presentation**, International Conference on Development Economics (ICDE)\
     Université Paris Nanterre / EconomiX (UMR 7235)
+:::
+:::::
+:::::::
 
-------------------------------------------------------------------------
-
+:::: research-card
 ### Does the environment matter? Leaders’ characteristics and green policies
 
-**Ongoing**
+::: paper-meta
+[Ongoing]{.status-badge}
+:::
 
 This project studies whether mayors’ individual characteristics influence local environmental policy choices in Brazil. While standard political economy models predict limited scope for leaders’ preferences to affect policy outcomes, a growing empirical literature shows that leaders’ traits can matter.
 
 Using close mayoral elections between 2000 and 2020, I adopt a regression discontinuity design to compare municipalities where candidates with different characteristics narrowly won or lost. Environmental outcomes are measured using municipal budget allocations to environmental policy, institutional indicators of local environmental governance, and land-use changes derived from satellite data.
+::::
 
-------------------------------------------------------------------------
-
+:::: research-card
 ### Local exposure to floods and electoral behavior
 
-**Ongoing**
+::: paper-meta
+[Ongoing]{.status-badge}
+:::
 
 This project examines the electoral effects of floods, focusing on highly localized exposure to climate-related disasters. Unlike slow-moving and spatially diffuse shocks such as droughts, floods are sudden and geographically concentrated events, making them particularly well suited for analysis at fine spatial scales.
 
 The core objective of the project is to assess whether voters’ electoral responses vary with proximity to flood events in Brazil. To this end, I plan to exploit geocoded polling-station electoral results combined with satellite-based data from the Global Flood Database, which provides high-resolution flood footprints derived from MODIS imagery for major flood events between 2000 and 2018. I plan to complement satellite-based flood footprints with administrative disaster records from Brazil’s Atlas Digital de Desastres (S2iD), which documents the timing and impacts of floods at the municipal level. While these administrative data lack precise geographic boundaries and may be subject to reporting biases, combining them with satellite-based flood polygons offers a promising strategy to jointly exploit spatial precision and information on disaster severity.
+::::
 
-------------------------------------------------------------------------
-
+:::: research-card
 ### Local representation, shocks and violence in Mali
 
-**Joint with M. Mercier**
-
-**Ongoing**
+::: paper-meta
+[Joint with M. Mercier]{.coauthor-badge} [Ongoing]{.status-badge}
+:::
 
 This paper examines whether the ethnic composition of communal councils moderates the relationship between weather shocks and local violence in Mali. Drawing on electoral results from the 2004 municipal elections, climate data, and geo-referenced conflict events, we exploit within-commune variation in rainfall shocks over 2004–2022 to study how the degree to which council members reflect the ethnic structure of the local population shapes the translation of drought-induced stress into violence.
 
 The analysis focuses on a context of sustained conflict and complex resource competition between pastoral and agricultural communities, in which decentralization was partly designed as a tool for conflict prevention.
+::::
