@@ -1,21 +1,20 @@
 /* ===== 70s bold: pale green + flashy orange ===== */
 :root{
   /* BACKGROUNDS */
-  --bg: #ecefd0;       /* VERT pâle assumé */
-  --card: #fdfcf7;     /* crème clair pour les cartes */
+  --bg: #ecefd0;
+  --card: #fdfcf7;
 
   /* TEXT */
   --text: #2b241f;
   --muted: #5e5a55;
 
   /* ACCENTS */
-  --brand: #ff5a1f;    /* orange flashy */
-  --accent: #2f6b3c;   /* vert profond */
+  --brand: #ff5a1f;
+  --accent: #2f6b3c;
   --border: rgba(43,36,31,.18);
 
   --shadow: 0 12px 28px rgba(43,36,31,.12);
 }
-
 
 /* Base */
 body{
@@ -30,6 +29,7 @@ a{
   font-weight: 650;
   text-decoration: none;
 }
+
 a:hover{
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -40,9 +40,11 @@ h1, h2, h3{
   color: var(--brand);
   letter-spacing: -0.02em;
 }
+
 h1{
   font-weight: 900;
 }
+
 h2{
   font-weight: 850;
   margin-top: 1.8rem;
@@ -56,14 +58,17 @@ h2{
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
+
 .navbar-brand{
   color: var(--brand) !important;
   font-weight: 900;
 }
+
 .navbar-nav .nav-link{
   color: var(--text);
   font-weight: 650;
 }
+
 .navbar-nav .nav-link.active{
   color: var(--brand) !important;
 }
@@ -76,20 +81,20 @@ h2{
   box-shadow: var(--shadow);
 }
 
-/* Pills (research fields) */
+/* Pills */
 .pill{
   display: inline-flex;
   align-items: center;
   padding: .18rem .55rem;
   border-radius: 999px;
-  background: transparent;                 /* plus de gros aplat */
-  border: 1.5px solid rgba(47,107,60,.45); /* contour plus net */
+  background: transparent;
+  border: 1.5px solid rgba(47,107,60,.45);
   color: var(--text);
   font-weight: 650;
   font-size: .92rem;
   margin: .15rem .35rem .15rem 0;
   line-height: 1.2;
-  white-space: nowrap;                     /* évite les retours à la ligne */
+  white-space: nowrap;
 }
 
 .pill::before{
@@ -97,7 +102,7 @@ h2{
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--brand);  /* orange */
+  background: var(--brand);
   display: inline-block;
   margin-right: .4rem;
 }
@@ -107,7 +112,6 @@ h2{
   flex-wrap: wrap;
   gap: .45rem .6rem;
 }
-
 
 /* Highlight utility */
 .hl{
@@ -124,10 +128,26 @@ h2{
   display: none !important;
 }
 
+.quarto-title-block{
+  display: none !important;
+}
+
+/* Generic research text */
+.research-text{
+  max-width: 920px;
+}
+
 .research-text p{
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+  line-height: 1.65;
+}
+
+/* Paper entry styling */
+.paper-title{
+  color: var(--brand);
+  font-weight: 700;
 }
 
 .paper-subtitle{
@@ -136,17 +156,6 @@ h2{
   font-weight: 600;
   margin-top: .2rem;
   color: var(--brand);
-}
-
-.quarto-title-block {
-  display: none !important;
-}
-
-/* ===== Paper entry styling ===== */
-
-.paper-title{
-  color: var(--brand);
-  font-weight: 700;
 }
 
 .paper-status{
@@ -208,6 +217,13 @@ h2{
   line-height: 1.2;
 }
 
+.research-card p{
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  line-height: 1.65;
+}
+
 .featured-paper{
   border: 2px solid rgba(255,90,31,.35);
   background: linear-gradient(
@@ -244,72 +260,6 @@ h2{
   margin-right: .45rem;
 }
 
-.research-details{
-  display: grid;
-  grid-template-columns: 1fr 1.8fr;
-  gap: 1rem;
-  margin-top: 1.6rem;
-}
-
-.detail-box{
-  background: rgba(236,239,208,.65);
-  border: 1px solid rgba(43,36,31,.14);
-  border-radius: 22px;
-  padding: 1rem 1.1rem;
-}
-
-.detail-box h4{
-  color: var(--brand);
-  margin-top: 0;
-  margin-bottom: .8rem;
-  font-weight: 850;
-  letter-spacing: -.02em;
-}
-
-.detail-box ul{
-  padding-left: 1.1rem;
-  margin-bottom: 0;
-}
-
-.detail-box li{
-  margin-bottom: .85rem;
-}
-
-.detail-box li:last-child{
-  margin-bottom: 0;
-}
-
-/* Presentation labels */
-.detail-box strong{
-  color: var(--accent);
-  font-weight: 800;
-}
-
-/* More breathing room for the Research page */
-.research-text{
-  max-width: 920px;
-}
-
-.research-text p{
-  line-height: 1.65;
-}
-
-/* Smaller screens */
-@media (max-width: 800px){
-  .research-card{
-    padding: 1.35rem 1.35rem;
-    border-radius: 22px;
-  }
-
-  .research-details{
-    grid-template-columns: 1fr;
-  }
-
-  .research-card h3{
-    font-size: 1.25rem;
-  }
-}
-
 .coauthor-badge{
   display: inline-flex;
   align-items: center;
@@ -333,4 +283,497 @@ h2{
   border-radius: 999px;
   background: var(--accent);
   margin-right: .45rem;
+}
+
+/* ===== Awards + Presentations boxes ===== */
+
+.research-details{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.2rem;
+  align-items: start;
+  margin-top: 1.6rem;
+}
+
+.detail-box{
+  background: rgba(236,239,208,.65);
+  border: 1px solid rgba(43,36,31,.14);
+  border-radius: 22px;
+  padding: 1rem 1.1rem;
+  width: 100%;
+}
+
+.detail-box h4{
+  color: var(--brand);
+  margin-top: 0;
+  margin-bottom: .8rem;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+.detail-box ul{
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.detail-box li{
+  margin-bottom: .75rem;
+}
+
+.detail-box li:last-child{
+  margin-bottom: 0;
+}
+
+.detail-box strong{
+  color: var(--accent);
+  font-weight: 800;
+}
+
+/* ===== Version Quarto columns qui marchait ===== */
+
+.research-details.columns{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 1.6rem;
+}
+
+/* ===== FINAL FIX: espace entre Awards et Presentations sans casser l'horizontal ===== */
+
+.research-details.columns{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  margin-top: 1.6rem !important;
+  width: 100% !important;
+}
+
+/* Colonnes Quarto */
+.research-details.columns > .column{
+  display: flex !important;
+  box-sizing: border-box !important;
+}
+
+/* Crée l'espace SANS changer la largeur totale */
+.research-details.columns > .column:first-child{
+  padding-right: 1rem !important;
+}
+
+.research-details.columns > .column:nth-child(2){
+  padding-left: 1rem !important;
+}
+
+/* Les boxes remplissent leur colonne */
+.research-details.columns .detail-box{
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile seulement */
+@media (max-width: 800px){
+  .research-details.columns{
+    flex-direction: column !important;
+  }
+
+  .research-details.columns > .column:first-child,
+  .research-details.columns > .column:nth-child(2){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/* ===== Awards + Presentations: horizontal boxes ===== */
+
+.ap-row{
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  gap: 2rem !important;
+  margin: 1.8rem 0 2.4rem !important;
+}
+
+.ap-card{
+  background: rgba(253,252,247,.78);
+  border: 1.5px solid rgba(43,36,31,.16);
+  border-radius: 24px;
+  padding: 1.2rem 1.3rem;
+  box-shadow: 0 10px 26px rgba(43,36,31,.08);
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+}
+
+.ap-awards{
+  flex: 0 0 calc(34% - 1rem) !important;
+}
+
+.ap-presentations{
+  flex: 0 0 calc(66% - 1rem) !important;
+}
+
+.ap-card h4,
+.ap-card h3{
+  color: var(--brand);
+  margin-top: 0;
+  margin-bottom: .9rem;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+.ap-card ul{
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.ap-card li{
+  margin-bottom: .75rem;
+  line-height: 1.45;
+}
+
+.ap-card li:last-child{
+  margin-bottom: 0;
+}
+
+.ap-card strong{
+  color: var(--accent);
+  font-weight: 800;
+}
+
+/* Mobile */
+@media (max-width: 700px){
+  .ap-row{
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .ap-awards,
+  .ap-presentations{
+    flex: 1 1 auto !important;
+    width: 100% !important;
+  }
+}
+
+/* ===== HARD FIX: Awards + Presentations horizontal ===== */
+
+.ap-wrapper{
+  display: grid !important;
+  grid-template-columns: minmax(220px, 1fr) minmax(0, 2fr) !important;
+  gap: 2rem !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  margin: 1.8rem 0 2.4rem !important;
+}
+
+.ap-wrapper > .ap-box{
+  min-width: 0 !important;
+  width: auto !important;
+}
+
+.ap-box{
+  background: rgba(253,252,247,.78);
+  border: 1.5px solid rgba(43,36,31,.16);
+  border-radius: 24px;
+  padding: 1.2rem 1.3rem;
+  box-shadow: 0 10px 26px rgba(43,36,31,.08);
+  box-sizing: border-box !important;
+}
+
+.ap-box h4,
+.ap-box h3{
+  color: var(--brand);
+  margin-top: 0;
+  margin-bottom: .9rem;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+.ap-box ul{
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.ap-box li{
+  margin-bottom: .75rem;
+  line-height: 1.45;
+}
+
+.ap-box li:last-child{
+  margin-bottom: 0;
+}
+
+.ap-box strong{
+  color: var(--accent);
+  font-weight: 800;
+}
+
+@media (max-width: 700px){
+  .ap-wrapper{
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+}
+
+/* ===== FINAL OVERRIDE: Awards + Presentations horizontal ===== */
+
+.research-card .ap-row{
+  display: grid !important;
+  grid-template-columns: 1fr 2fr !important;
+  column-gap: 2rem !important;
+  row-gap: 1rem !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  margin-top: 1.8rem !important;
+  margin-bottom: .4rem !important;
+}
+
+.research-card .ap-card{
+  display: block !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  background: rgba(236,239,208,.65);
+  border: 1px solid rgba(43,36,31,.14);
+  border-radius: 22px;
+  padding: 1rem 1.1rem;
+  box-sizing: border-box !important;
+}
+
+.research-card .ap-awards{
+  grid-column: 1 !important;
+}
+
+.research-card .ap-presentations{
+  grid-column: 2 !important;
+}
+
+.research-card .ap-card h4{
+  color: var(--brand);
+  margin-top: 0;
+  margin-bottom: .8rem;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+.research-card .ap-card ul{
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.research-card .ap-card li{
+  margin-bottom: .75rem;
+  line-height: 1.45;
+}
+
+.research-card .ap-card li:last-child{
+  margin-bottom: 0;
+}
+
+.research-card .ap-card strong{
+  color: var(--accent);
+  font-weight: 800;
+}
+
+@media (max-width: 750px){
+  .research-card .ap-row{
+    grid-template-columns: 1fr !important;
+  }
+
+  .research-card .ap-awards,
+  .research-card .ap-presentations{
+    grid-column: 1 !important;
+  }
+}
+
+/* ===== Awards + Presentations: horizontal banner boxes ===== */
+
+.ap-row{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.2rem !important;
+  width: 100% !important;
+  margin: 1.8rem 0 2.2rem !important;
+}
+
+.ap-card{
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+
+  background: rgba(236,239,208,.65);
+  border: 1px solid rgba(43,36,31,.14);
+  border-radius: 22px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 10px 26px rgba(43,36,31,.08);
+}
+
+/* Titre à gauche, contenu à droite */
+.ap-card{
+  display: grid !important;
+  grid-template-columns: 160px 1fr !important;
+  column-gap: 1.4rem !important;
+  align-items: start !important;
+}
+
+.ap-card h4,
+.ap-card h3{
+  color: var(--brand);
+  margin: 0 !important;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+.ap-card ul{
+  padding-left: 1.1rem;
+  margin: 0 !important;
+}
+
+/* Awards sur une ligne si possible */
+.ap-awards ul{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: .6rem 2rem !important;
+  padding-left: 0 !important;
+  list-style-position: inside !important;
+}
+
+.ap-awards li{
+  margin-bottom: 0 !important;
+}
+
+/* Presentations en deux colonnes pour éviter une grande box verticale */
+.ap-presentations ul{
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.ap-presentations li{
+  break-inside: avoid;
+  margin-bottom: .85rem;
+}
+
+.ap-card li{
+  line-height: 1.45;
+}
+
+.ap-card strong{
+  color: var(--accent);
+  font-weight: 800;
+}
+
+/* Mobile */
+@media (max-width: 750px){
+  .ap-card{
+    display: block !important;
+  }
+
+  .ap-card h4,
+  .ap-card h3{
+    margin-bottom: .8rem !important;
+  }
+
+  .ap-awards ul{
+    display: block !important;
+    padding-left: 1.1rem !important;
+    list-style-position: outside !important;
+  }
+
+  .ap-presentations ul{
+    columns: 1;
+  }
+}
+
+/* ===== FINAL: Awards au-dessus, Presentations en dessous, format paysage ===== */
+
+.research-card .ap-row,
+.ap-row{
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  gap: 1.2rem !important;
+  margin: 1.8rem 0 2.2rem !important;
+}
+
+.research-card .ap-card,
+.ap-card{
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+
+  background: rgba(236,239,208,.65);
+  border: 1px solid rgba(43,36,31,.14);
+  border-radius: 22px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 10px 26px rgba(43,36,31,.08);
+}
+
+/* Annule les anciennes positions gauche/droite */
+.research-card .ap-awards,
+.research-card .ap-presentations,
+.ap-awards,
+.ap-presentations{
+  grid-column: auto !important;
+  flex: none !important;
+  width: 100% !important;
+}
+
+/* Titres */
+.research-card .ap-card h4,
+.research-card .ap-card h3,
+.ap-card h4,
+.ap-card h3{
+  color: var(--brand);
+  margin-top: 0 !important;
+  margin-bottom: .8rem !important;
+  font-weight: 850;
+  letter-spacing: -.02em;
+}
+
+/* Listes */
+.research-card .ap-card ul,
+.ap-card ul{
+  margin-bottom: 0 !important;
+  padding-left: 1.1rem !important;
+}
+
+/* Awards sur une ligne horizontale */
+.research-card .ap-awards ul,
+.ap-awards ul{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: .6rem 2rem !important;
+  padding-left: 0 !important;
+  list-style-position: inside !important;
+}
+
+.research-card .ap-awards li,
+.ap-awards li{
+  margin-bottom: 0 !important;
+}
+
+/* Presentations : une liste normale, large */
+.research-card .ap-presentations ul,
+.ap-presentations ul{
+  columns: 1 !important;
+}
+
+.research-card .ap-card li,
+.ap-card li{
+  margin-bottom: .75rem;
+  line-height: 1.45;
+}
+
+.research-card .ap-card li:last-child,
+.ap-card li:last-child{
+  margin-bottom: 0;
+}
+
+.research-card .ap-card strong,
+.ap-card strong{
+  color: var(--accent);
+  font-weight: 800;
 }
