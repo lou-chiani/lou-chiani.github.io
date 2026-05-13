@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   resources:
     - google50201ff96fe40149.html
     - sitemap.xml
