@@ -10,3 +10,5 @@ _site/
 .Rproj.user/
 .quarto/
 .DS_Store
+
+**/*.quarto_ipynb
