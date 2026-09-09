@@ -2,4 +2,4 @@
 title: "Curriculum Vitae"
 ---
 
-[Download my CV (PDF)](files/CV_Lou_Chiani.pdf)
+[Download my CV (PDF)](files/CV.pdf)

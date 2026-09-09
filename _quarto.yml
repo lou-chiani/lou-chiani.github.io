@@ -18,7 +18,7 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: files/CV_Lou_Chiani.pdf
+      - href: files/CV.pdf
         text: CV
         target: _blank
 

@@ -2,6 +2,18 @@
 title: "Teaching"
 ---
 
+------------------------------------------------------------------------
+
+### Économie du développement
+
+*Undergraduate level — Paris-Dauphine University (PSL), since 2026 — Co-taught with Marc Raffinot*
+
+::: research-text
+This course introduces undergraduate students to the main concepts, questions, and methods of development economics. It examines how development can be defined and measured, why development trajectories differ across countries, and how public policies can address persistent economic and social inequalities.
+
+Topics include economic growth and structural transformation, poverty and inequality, demographic change, migration and labor markets, institutions, international trade, and development policies. The course also explores the challenges of achieving development that is both inclusive and environmentally sustainable.
+:::
+
 ### Économétrie I
 
 *Graduate level — Paris-Dauphine University (PSL), since 2025*
